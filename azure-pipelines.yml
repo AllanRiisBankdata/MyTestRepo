@@ -9,11 +9,11 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 # Some change
-    
+  container: mcr.microsoft.com/dotnet/sdk:7.0  
 
 steps:
 - script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  displayName: 'Start Steps'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
