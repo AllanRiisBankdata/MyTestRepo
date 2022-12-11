@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-# Some change
+# Some change more changes
   container: mcr.microsoft.com/dotnet/sdk:7.0  
 
 steps:
